@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>easter coding class</title>
+    <link rel="stylesheet" href="me.css">
+</head>
+<body>
+<h1 id="js"></h1>
+    <h1 style="color: blue;" id="heading">Midas Academy</h1>
+    
+    <form  action="contactform.php" method="post">
+       <div class="top_container">
+       <Label class="input">
+        <span> Name:</span>  <input type="text" name="Name" placeholder="write your name" >
+      </Label>
+        <label class="input">
+         email:  <input type="email" name="email" placeholder="write your email">
+      </label>        
+      <label class="input">
+         Date of Birth <input type="date" name="Date of Birth" placeholder="Date of Birth">
+      </label> 
+      <label class="input">
+            <span>Class</span>
+            <select name="class" >
+                <option value="JSS1">JSS1</option>
+                <option value="JSS2">JSS2</option>
+                <option value="JSS3">JSS3</option>
+                <option value="SS1">SS1</option>
+                <option value="SS2">SS2</option>
+                <option value="SS3">SS3</option>
+            </select>
+         </label>
+         </div>
+<div class="plot">
+            <span>Would you recommend midas academy to your friends?</span>
+            <label class="tes">
+            <label for= "Yes">
+                <input type="radio" name="choice" value="Yes"> Yes
+                </label>
+            </label>
+           <label>
+              <label for = "No">
+                <input  type="radio" name="choice" value="No"> No
+              </label>
+              </label>
+              <span>what program would you like to learn?</span>
+              <label class="tes">
+              <input  type="checkbox" name="scratch"/>scratch
+              </label>
+              <label class="tes">
+           <input type="checkbox" name="html"/>html
+          </label>
+          <label class="tes">
+           <input type="checkbox" name="css"/>Css
+          </label>
+          <label class="tes">
+           <input type="checkbox" name="java script"/>java script
+          </label>
+           <textarea name="message" placeholder="any comments or suggestions"></textarea>  
+            </div>
+           </form>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
